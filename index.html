@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Reservas de Salas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Controle de Reservas de Salas Escolares</h1>
+
+        <!-- Formulário para cadastro de sala -->
+        <div class="form-cadastro">
+            <h2>Cadastrar Sala</h2>
+            <input type="text" id="numero" placeholder="Número da Sala" required>
+            <input type="number" id="capacidade" placeholder="Capacidade" required>
+            <button onclick="cadastrarSala()">Cadastrar Sala</button>
+        </div>
+
+        <!-- Lista de salas -->
+        <div class="salas">
+            <h2>Salas Cadastradas</h2>
+            <ul id="lista-salas"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
