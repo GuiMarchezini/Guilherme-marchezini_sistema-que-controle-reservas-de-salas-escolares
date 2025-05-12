@@ -1,84 +1,63 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 400px;
-}
-
-h1 {
+    background: rgb(147, 238, 238);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
     text-align: center;
 }
 
-.form-cadastro {
+h1 {
     margin-bottom: 20px;
+    color: #333;
 }
 
-input {
+.formulario input {
     width: 100%;
-    padding: 8px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #be4141;
+    border-radius: 8px;
 }
 
 button {
     width: 100%;
-    padding: 10px;
-    background-color: #28a745;
+    padding: 12px;
+    background-color: #098526;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
+    font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
     background-color: #218838;
 }
 
-.salas {
-    margin-top: 20px;
-}
-
 ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
+    margin-top: 20px;
+    text-align: left;
 }
 
-li {
-    background-color: #f9f9f9;
-    margin: 5px 0;
+ul li {
+    background: #f1f1f1;
+    margin: 8px 0;
     padding: 10px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-li.reservada {
-    background-color: #ffc107;
-}
-
-li button {
-    padding: 5px 10px;
-    border: none;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-li button:hover {
-    background-color: #0056b3;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
